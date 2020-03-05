@@ -21,4 +21,4 @@
     body:
       name: "{{ item | regex_replace('/', '_') }}"
       type: groovy
-      content: "{{ lookup('file', 'etc/ansible/playbooks/nexus/scripts/' + item + '.groovy') }}"
+      content: "{{ lookup('file', '/etc/ansible/playbooks/nexus/scripts/' + item + '.groovy') }}"
