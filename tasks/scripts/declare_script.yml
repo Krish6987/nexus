@@ -17,7 +17,7 @@
     body_format: json
     method: POST
     force_basic_auth: yes
-    status_code: 204
+    status_code: 204,401
     body:
       name: "{{ item | regex_replace('/', '_') }}"
       type: groovy
