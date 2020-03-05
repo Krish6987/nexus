@@ -78,7 +78,7 @@
       current_nexus_admin_password: 'admin123'
    
   - name: NEXUS | Declare scripts
-    include_tasks: nexus/tasks/scripts/declare_script.yml
+    include_tasks: scripts/declare_script.yml
     with_items: security/admin_password
 
   - name: NEXUS | Security -> Admin Password
