@@ -83,4 +83,3 @@
 
   - name: NEXUS | Security -> Admin Password
     import_tasks: action/security/admin_password.yml
-    remote_src: true
