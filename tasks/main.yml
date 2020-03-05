@@ -80,7 +80,6 @@
   - name: NEXUS | Declare scripts
     include_tasks: script/declare_script.yml
     with_items: security/admin_password
-    remote_src: true
 
   - name: NEXUS | Security -> Admin Password
     import_tasks: action/security/admin_password.yml
