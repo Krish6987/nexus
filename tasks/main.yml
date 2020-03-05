@@ -82,4 +82,4 @@
     with_items: security/admin_password
 
   - name: NEXUS | Security -> Admin Password
-    import_tasks: nexus/tasks/action/security/admin_password.yml
+    import_tasks: action/security/admin_password.yml
