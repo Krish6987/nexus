@@ -75,7 +75,7 @@
       
   - name: NEXUS | First-time install admin password
     set_fact:
-      current_nexus_admin_password: '6e28b524-bde7-4e31-8953-6289ebe48e5f'
+      current_nexus_admin_password: '6f518a87-a90f-40f3-b372-0877190ebb17'
    
   - name: NEXUS | Declare scripts
     include_tasks: scripts/declare_script.yml
