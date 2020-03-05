@@ -8,6 +8,6 @@
     headers:
       Content-Type: "text/plain"
     method: POST
-    status_code: 200,204
+    status_code: 200,204,401
     force_basic_auth: yes
     body: "{{ args | to_json }}"
