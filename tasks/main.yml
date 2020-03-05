@@ -83,3 +83,8 @@
 
   - name: NEXUS | Security -> Admin Password
     import_tasks: action/security/admin_password.yml
+    
+  - name: restart nexus
+    become: yes
+    shell:
+      cmd: service nexus restart
