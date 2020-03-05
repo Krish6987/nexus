@@ -79,7 +79,7 @@
    
   - name: NEXUS | Declare scripts
     include_tasks: scripts/declare_script.yml
-    with_items: /action/security/admin_password
+    with_items: security/admin_password
 
   - name: NEXUS | Security -> Admin Password
     import_tasks: action/security/admin_password.yml
