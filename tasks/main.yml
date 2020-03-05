@@ -73,18 +73,18 @@
     shell:
       cmd: service nexus start
       
-  - name: NEXUS | First-time install admin password
-    set_fact:
-      current_nexus_admin_password: '6e28b524-bde7-4e31-8953-6289ebe48e5f'
+#   - name: NEXUS | First-time install admin password
+#     set_fact:
+#       current_nexus_admin_password: '6e28b524-bde7-4e31-8953-6289ebe48e5f'
    
-  - name: NEXUS | Declare scripts
-    include_tasks: scripts/declare_script.yml
-    with_items: security/admin_password
+#   - name: NEXUS | Declare scripts
+#     include_tasks: scripts/declare_script.yml
+#     with_items: security/admin_password
 
-  - name: NEXUS | Security -> Admin Password
-    import_tasks: action/security/admin_password.yml
+#   - name: NEXUS | Security -> Admin Password
+#     import_tasks: action/security/admin_password.yml
     
-  - name: restart nexus
-    become: yes
-    shell:
-      cmd: service nexus restart
+#   - name: restart nexus
+#     become: yes
+#     shell:
+#       cmd: service nexus restart
