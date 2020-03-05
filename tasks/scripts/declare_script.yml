@@ -7,7 +7,7 @@
     password: "{{ current_nexus_admin_password }}"
     method: DELETE
     force_basic_auth: yes
-    status_code: 204,404
+    status_code: 204,404,401
 
 - name: NEXUS | Declaring Groovy script {{ item }}
   uri:
