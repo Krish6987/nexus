@@ -7,7 +7,7 @@
     nexus_download_dest: /tmp/nexus-{{nexus_version}}-bundle.tar.gz
     nexus_extracted_dir: /tmp/nexus_extracted_dir
     nexus_dir: /usr/local/nexus/nexus-3.21.1-01
-    nexus_admin_password: 6f518a87-a90f-40f3-b372-0877190ebb17
+    nexus_admin_password: admin123
     nexus_data_dir: /usr/local/nexus/nexus-3.21.1-01
     nexus_api_scheme: http
     nexus_api_hostname: 18.220.210.191
